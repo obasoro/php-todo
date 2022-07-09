@@ -67,7 +67,7 @@ stage('Plot Code Coverage Report') {
                     "files": [
                       {
                        "pattern": "php-todo.zip",
-                       "target": "<name-of-artifact-repository>/php-todo",
+                       "target": "kunle/php-todo",
                        "props": "type=zip;status=ready"
 
                        }
